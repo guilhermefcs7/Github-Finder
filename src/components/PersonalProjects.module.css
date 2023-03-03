@@ -1,0 +1,65 @@
+.backButton {
+  position: absolute;
+  left: 5%;
+
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 15px;
+
+  cursor: pointer;
+  background-color: #2b3566;
+  color: #9da5d1;
+  border-radius: 5px;
+}
+
+.personal h2 {
+  padding-bottom: 20px;
+  text-align: center;
+
+  font-size: 1.1rem;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 20px;
+
+  background-color: #2b3566;
+  border-radius: 10px;
+}
+
+.personal_repo_box {
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  border: 2px solid #9da5d1;
+  background-color: #0e1129;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.1rem;
+  line-height: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.personalInfo {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 14px;
+  font-weight: 300;
+}
